@@ -1,0 +1,103 @@
+/* ========== GAYA UMUM ========== */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #f7f7f7, #f3e9e5);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    color: #b30000;
+    margin-top: 30px;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin-top: 50px;
+}
+
+/* ========== INPUT & BUTTON ========== */
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+button,
+.btn {
+    background-color: #b30000;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #ff4040;
+}
+
+/* ========== TABEL ========== */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 90%;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #b30000;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #fceaea;
+}
+
+/* Pesan */
+#msg {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+
+    .container,
+    table {
+        width: 100%;
+    }
+}
